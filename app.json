@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "AURA Music",
+    "slug": "aura-music",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#080510"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#080510"
+      },
+      "package": "com.auramusic.app",
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        "android.permission.WAKE_LOCK",
+        "android.permission.RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "plugins": [
+      "expo-av",
+      "expo-media-library"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a11e5ede-1d5b-4b4e-8288-5fe83b978b2d"
+      }
+    },
+    "owner": "leou"
+  }
+}
